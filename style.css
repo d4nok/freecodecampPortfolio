@@ -1,0 +1,130 @@
+*{
+        margin: 0;
+        padding: 0;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.8rem; /* 18px */
+    font-weight: 400;
+    line-height: 1.4;
+  }
+  
+  .welcome-section{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      width: 100%;
+      height: 100vh;
+      background-color:#141414  ;
+  }
+  h1{
+      color: aliceblue;
+      font-size: 2.5em;
+      text-align: center;
+      text-shadow: 1px 5px rgb(19, 19, 19);
+  }
+  h1, p {
+      color: aliceblue;
+      text-align: center;
+  }
+  h1, h2{
+      color: aliceblue;
+      text-align: center;
+  }
+  .title{
+      padding-bottom: 2em;
+  }
+img{
+    width: 380px;
+    border-radius: 10px ;
+}
+img:hover{
+    transform: scale(1.2);
+}
+  .projects-grid {
+      justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 4rem;
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+      margin-bottom: 0px;
+    margin-bottom: 6rem;
+  }
+.projects-grid a {
+    text-decoration: none;
+
+}
+  .projects-section{
+      padding: 2em;
+      background-color: #353535;
+  }
+  .project-section-heaer {
+      padding-bottom: 2em;
+  }
+
+  /* nav */
+
+  .nav{
+      background-color: #049777;
+      display: flex;
+      justify-content: flex-end;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      z-index: 10;
+      box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
+  }
+  .nav-list {
+    display: flex;
+    margin-right: 2rem;
+    text-decoration: none;
+    list-style-type: none;
+}
+.nav-list a {
+      color: azure;
+    display: block;
+    font-size: 2.2rem;
+    padding: 2rem;
+    text-decoration: none;
+  }
+  .nav-list a:hover{
+      transform: scale(1.06);
+  }
+/* contact */
+  .contact-section{
+      background-color: #056b55;
+      width: 100%;
+      height: 28vw;
+    }
+    #contact-title{
+        padding-top: 2em;
+        color: #dbdbdb;
+  }
+  .contact-links{
+      display: block;
+      text-align: center;
+      margin: 3em;
+      
+  }
+  .contact-links a {
+      color: #ffffff;
+      padding: 1em;
+      text-decoration: none;
+      font-size: 40px;
+font-family: 'Noticia Text', serif;
+
+  }
+  .contact-links:hover {
+      transform: scale(1.3);
+      font-family: 'Lobster', cursive;
+  }
+
+  /* footer */
+  footer{
+      font-size: medium;
+      background-color: #353535;
+  }
+ 
